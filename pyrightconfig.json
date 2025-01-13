@@ -1,0 +1,16 @@
+{
+    "typeCheckingMode": "off",
+    "reportMissingImports": false,
+    "reportMissingModuleSource": false,
+    "reportUndefinedVariable": false,
+    "pythonVersion": "3.9",
+    "extraPaths": [
+        "./stubs"
+    ],
+    "ignore": [
+        "**/test_*.py",
+        "**/__pycache__",
+        "**/venv",
+        "**/env"
+    ]
+}

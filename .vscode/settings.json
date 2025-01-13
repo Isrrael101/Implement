@@ -1,0 +1,23 @@
+{
+    "python.languageServer": "Pylance",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.defaultInterpreterPath": "${workspaceFolder}/entorno/Scripts/python.exe",
+    "micropython.executeButton": {
+        "stopOnEnter": false,
+        "ignoreFocusOut": false
+    },
+    "micropython.syncButton": {
+        "stopOnEnter": false,
+        "ignoreFocusOut": false
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.indexing": true,
+    "python.analysis.extraPaths": [
+        "./entorno/Lib/site-packages/micropython_esp32_stubs"
+    ]
+}
