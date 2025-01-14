@@ -6,8 +6,8 @@ import time
 led = Pin(2, Pin.OUT)
 
 # WiFi
-WIFI_SSID = "FABRICA"
-WIFI_PASSWORD = "Carol2023@"
+WIFI_SSID = "Redmi Note 13"
+WIFI_PASSWORD = "carol123"
 
 def wifi_connect():
     wlan = network.WLAN(network.STA_IF)

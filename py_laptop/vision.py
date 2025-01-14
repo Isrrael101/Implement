@@ -12,16 +12,16 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 
 # MQTT
-MQTT_BROKER = "192.168.0.100"
+MQTT_BROKER = "192.168.156.11"
 MQTT_PORT = 1883
 MQTT_TOPIC = "esp32/led"
 
 # IP Webcam
-IPWEBCAM_URL = "http://192.168.1.5:8080/shot.jpg"
+IPWEBCAM_URL = "http://192.168.156.89:8080/shot.jpg"
 
 # MySQL
 DB_CONFIG = {
-    'host': '192.168.0.100',
+    'host': '192.168.156.11',
     'user': 'root',
     'password': '123456',
     'database': 'basedatos'

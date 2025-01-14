@@ -10,9 +10,9 @@ services:
       --authentication-policy=mysql_native_password
       --bind-address=0.0.0.0
     ports:
-      - "192.168.0.100:3306:3306"
+      - "192.168.0.101:3306:3306"
     volumes:
-      - mysql_data:/var/lib/mysql
+      - ./mysql_data:/var/lib/mysql
       - ./init:/docker-entrypoint-initdb.d
 
 volumes:

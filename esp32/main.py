@@ -6,7 +6,7 @@ import time
 led = Pin(2, Pin.OUT)
 
 # MQTT
-MQTT_BROKER = "192.168.0.100"  # IP de tu PC donde corre Mosquitto
+MQTT_BROKER = "192.168.156.11"  # IP de tu PC donde corre Mosquitto
 MQTT_PORT = 1883
 MQTT_TOPIC = b"esp32/led"
 CLIENT_ID = "esp32_client"
